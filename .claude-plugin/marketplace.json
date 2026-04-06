@@ -17,7 +17,7 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "git@github.com:pramodbiligiri/code-flow.git",
+        "url": "https://github.com/pramodbiligiri/code-flow.git",
         "sha": "fae90358425faa395c052d2ab551a03f1a2c7a3f"
       },
       "homepage": "https://github.com/pramodbiligiri/code-flow/"
