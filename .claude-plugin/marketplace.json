@@ -1,0 +1,27 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code-plugins-official/marketplace-schema.json",
+  "name": "pramodb-plugins",
+  "description": "Claude Code plugins by Pramod Biligiri",
+  "owner": {
+    "name": "Pramod Biligiri",
+    "url": "https://github.com/pramodbiligiri"
+  },
+  "plugins": [
+    {
+      "name": "code-flow",
+      "description": "Agent coding workflow with plan-before-implement discipline, TDD, vertical slices, Linear integration, and immutable git-based plan versioning.",
+      "author": {
+        "name": "Pramod Biligiri",
+        "url": "https://github.com/pramodbiligiri/code-flow"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:pramodbiligiri/code-flow.git",
+        "sha": "fae90358425faa395c052d2ab551a03f1a2c7a3f"
+      },
+      "homepage": "https://github.com/pramodbiligiri/code-flow/"
+    }
+  ]
+}
+
