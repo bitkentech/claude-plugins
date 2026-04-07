@@ -10,6 +10,7 @@
     {
       "name": "code-flow",
       "description": "Agent coding workflow with plan-before-implement discipline, TDD, vertical slices, Linear integration, and immutable git-based plan versioning.",
+      "skills": ["./skills/code-flow"],
       "author": {
         "name": "Pramod Biligiri",
         "url": "https://github.com/pramodbiligiri/code-flow"
