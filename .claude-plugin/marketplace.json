@@ -8,20 +8,20 @@
   },
   "plugins": [
     {
-      "name": "devostat",
+      "name": "code-flow",
       "description": "A workflow for agentic coding where 1) you track implementation plans and tasks in version control, issue tracker 2) identify and implement the risky/unknown bits first 3) implement vertical slices of functionality 4) only increase code quality and test coverage after sufficient de-risking",
-      "skills": ["./skills/devostat"],
+      "skills": ["./skills/code-flow"],
       "author": {
         "name": "Pramod Biligiri",
-        "url": "https://github.com/pramodbiligiri/devostat"
+        "url": "https://github.com/pramodbiligiri/code-flow"
       },
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/pramodbiligiri/devostat.git",
-        "sha": "42748b148d46562345bc5e468a78bbbea3929903"
+        "sha": "adcbe581794f96d23b4c41326b9d772d70468ab7"
       },
-      "homepage": "https://github.com/pramodbiligiri/devostat/"
+      "homepage": "https://github.com/pramodbiligiri/code-flow/"
     }
   ]
 }
