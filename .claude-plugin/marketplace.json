@@ -1,9 +1,9 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code-plugins-official/marketplace-schema.json",
-  "name": "pramodb-plugins",
-  "description": "Claude Code plugins by Pramod Biligiri",
+  "name": "bitkentech",
+  "description": "Claude Code plugins by Bitken Technologies",
   "owner": {
-    "name": "Pramod Biligiri",
+    "name": "Bitken Technologies",
     "url": "https://github.com/bitkentech/claude-plugins"
   },
   "plugins": [
@@ -12,7 +12,7 @@
       "description": "A workflow for agentic coding where 1) you track implementation plans and tasks in version control, issue tracker 2) identify and implement the risky/unknown bits first 3) implement vertical slices of functionality 4) only increase code quality and test coverage after sufficient de-risking",
       "skills": ["./skills/devostat"],
       "author": {
-        "name": "Pramod Biligiri",
+        "name": "Bitken Technologies",
         "url": "https://github.com/bitkentech/devostat"
       },
       "category": "development",
