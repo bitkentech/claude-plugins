@@ -2,7 +2,7 @@
 <plan-tasks plan="4" plan-version="plan-04-v1">
   <metadata>
     <backlog-issue>PB-267</backlog-issue>
-    <status>active</status>
+    <status>complete</status>
     <created>2026-04-15</created>
   </metadata>
 
@@ -19,5 +19,6 @@
 
   <project-updates>
     <update timestamp="2026-04-15T11:24:02.363Z">Plan initialised.</update>
+      <update timestamp="2026-04-15T11:44:19.153Z">Plan complete. Task 1 (agent-coded) at commit 72843733. All four URL replacements applied and verified. Tag: plan-04-complete.</update>
   </project-updates>
 </plan-tasks>
