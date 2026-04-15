@@ -4,7 +4,7 @@
   "description": "Claude Code plugins by Pramod Biligiri",
   "owner": {
     "name": "Pramod Biligiri",
-    "url": "https://github.com/pramodbiligiri/claude-plugins"
+    "url": "https://github.com/bitkentech/claude-plugins"
   },
   "plugins": [
     {
@@ -13,16 +13,16 @@
       "skills": ["./skills/devostat"],
       "author": {
         "name": "Pramod Biligiri",
-        "url": "https://github.com/pramodbiligiri/devostat"
+        "url": "https://github.com/bitkentech/devostat"
       },
       "category": "development",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/pramodbiligiri/devostat.git",
+        "url": "https://github.com/bitkentech/devostat.git",
         "path": "dist",
         "ref": "releases"
       },
-      "homepage": "https://github.com/pramodbiligiri/devostat"
+      "homepage": "https://github.com/bitkentech/devostat"
     }
   ]
 }
