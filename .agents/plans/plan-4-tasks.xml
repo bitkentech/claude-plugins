@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan-tasks plan="4" plan-version="plan-04-v1">
+  <metadata>
+    <backlog-issue>PB-267</backlog-issue>
+    <status>active</status>
+    <created>2026-04-15</created>
+  </metadata>
+
+  <tasks>
+  <task id="1" risk="medium" status="pending">
+    <name>Update pramodbiligiri URLs to bitkentech in marketplace.json</name>
+    <commit></commit>
+    <created-from>plan-04-v1</created-from>
+    <closed-at-version></closed-at-version>
+    <comments></comments>
+    <deviations></deviations>
+  </task>
+  </tasks>
+
+  <project-updates>
+    <update timestamp="2026-04-15T11:24:02.363Z">Plan initialised.</update>
+  </project-updates>
+</plan-tasks>

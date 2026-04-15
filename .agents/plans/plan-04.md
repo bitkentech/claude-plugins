@@ -41,11 +41,18 @@ No other fields (including `ref: "releases"`, `path: "dist"`, `source: "git-subd
 
 One substantive task — the change is a narrow, reversible config edit with a fast verify loop. Risk ordering is trivial here but we still calibrate.
 
-| # | Task | Actual Risk | Justification |
-|---|------|-------|---------------|
-| 1 | Update all four `pramodbiligiri` URLs to `bitkentech` in `marketplace.json` | **Medium** (human override; default was Low) | Human calibration. A wrong URL silently breaks downstream plugin installs for every marketplace user, and the only real-world verification is an end-to-end install in a fresh Claude Code session — so treat this via the De-risk & Harden cycle (Step A: prove the releases branch + dist path resolves; Step B: harden verification and commit). |
+Risk calibrated with the human: **Medium**. One substantive task, treated via the De-risk & Harden cycle (Step A: prove the `releases` branch + `dist` path resolves; Step B: harden verification and commit).
 
-Risk calibrated with the human: **Medium**. Proceed to generate the task XML.
+### Task 1: Update pramodbiligiri URLs to bitkentech in marketplace.json [Medium]
+
+Four string replacements in `.claude-plugin/marketplace.json`:
+
+1. `owner.url` → `https://github.com/bitkentech/claude-plugins`
+2. `plugins[0].author.url` → `https://github.com/bitkentech/devostat`
+3. `plugins[0].source.url` → `https://github.com/bitkentech/devostat.git`
+4. `plugins[0].homepage` → `https://github.com/bitkentech/devostat`
+
+No other fields change. Risk was bumped from default Low to Medium because a wrong URL silently breaks every downstream plugin install.
 
 ## Verification
 
