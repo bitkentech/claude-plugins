@@ -8,21 +8,21 @@
   },
   "plugins": [
     {
-      "name": "devostat",
+      "name": "shipsmooth",
       "description": "A workflow for agentic coding where 1) you track implementation plans and tasks in version control, issue tracker 2) identify and implement the risky/unknown bits first 3) implement vertical slices of functionality 4) only increase code quality and test coverage after sufficient de-risking",
-      "skills": ["./skills/devostat"],
+      "skills": ["./skills/start"],
       "author": {
         "name": "Bitken Technologies",
-        "url": "https://github.com/bitkentech/devostat"
+        "url": "https://github.com/bitkentech/shipsmooth"
       },
       "category": "development",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/bitkentech/devostat.git",
+        "url": "https://github.com/bitkentech/shipsmooth.git",
         "path": "dist",
         "ref": "releases"
       },
-      "homepage": "https://github.com/bitkentech/devostat"
+      "homepage": "https://github.com/bitkentech/shipsmooth"
     }
   ]
 }
