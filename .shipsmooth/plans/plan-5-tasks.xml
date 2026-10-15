@@ -4,16 +4,16 @@
     <plan-version>plan-5-v1</plan-version>
     <metadata>
         <backlog-issue></backlog-issue>
-        <status>active</status>
+        <status>complete</status>
         <created>2026-10-15</created>
     </metadata>
     <tasks>
         <task>
             <id>1</id>
             <risk>low</risk>
-            <status>agent-coded</status>
+            <status>closed</status>
             <name>Add shipsmooth-beta entry to marketplace.json</name>
-            <commit>5dce9bb7dfc0105292b978d7fea02cc94047a51d</commit>
+            <commit>b4475643d551668706a4fad8c62db2308ed51e98</commit>
             <created-from>plan-5-v1</created-from>
             <closed-at-version></closed-at-version>
             <comments/>
@@ -24,6 +24,11 @@
         <update>
             <timestamp>2026-10-15T12:34:31.619+05:30</timestamp>
             <message>Plan initialised.</message>
+            <blocked>false</blocked>
+        </update>
+        <update>
+            <timestamp>2026-10-15T12:39:18.514+05:30</timestamp>
+            <message>Plan complete. Task 1 squash-merged to main at b4475643; shipsmooth-beta entry added to marketplace.json.</message>
             <blocked>false</blocked>
         </update>
     </project-updates>
