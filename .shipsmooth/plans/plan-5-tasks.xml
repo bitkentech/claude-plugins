@@ -11,9 +11,9 @@
         <task>
             <id>1</id>
             <risk>low</risk>
-            <status>pending</status>
+            <status>agent-coded</status>
             <name>Add shipsmooth-beta entry to marketplace.json</name>
-            <commit></commit>
+            <commit>5dce9bb7dfc0105292b978d7fea02cc94047a51d</commit>
             <created-from>plan-5-v1</created-from>
             <closed-at-version></closed-at-version>
             <comments/>

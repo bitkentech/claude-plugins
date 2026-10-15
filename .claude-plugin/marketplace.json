@@ -23,6 +23,23 @@
         "ref": "releases"
       },
       "homepage": "https://github.com/bitkentech/shipsmooth"
+    },
+    {
+      "name": "shipsmooth-beta",
+      "description": "[BETA] Rust CLI preview of shipsmooth, the same workflow on a single ~2 MB native binary (no JRE). Separate plugin with its own /shipsmooth-beta:start command; can be installed alongside shipsmooth. POSIX only (Linux x64, macOS x64/arm64). Expect rough edges.",
+      "skills": ["./skills/start"],
+      "author": {
+        "name": "Bitken Technologies",
+        "url": "https://github.com/bitkentech/shipsmooth"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bitkentech/shipsmooth.git",
+        "path": "dist",
+        "ref": "releases-beta"
+      },
+      "homepage": "https://github.com/bitkentech/shipsmooth/blob/main/EXPERIMENTAL.md"
     }
   ]
 }
